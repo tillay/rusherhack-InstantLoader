@@ -35,6 +35,6 @@ public class InstantLoadModule extends ToggleableModule {
 	private void interactTargetedBlock() {
 		if (!(mc.hitResult instanceof BlockHitResult bhr) || mc.gameMode == null) return;
 
-        mc.gameMode.useItemOn(mc.player, InteractionHand.MAIN_HAND, bhr);
+        mc.execute(() -> mc.gameMode.useItemOn(mc.player, InteractionHand.MAIN_HAND, bhr));
 	}
 }
