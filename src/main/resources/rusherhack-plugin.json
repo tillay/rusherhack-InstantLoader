@@ -4,7 +4,8 @@
   "Version": "${project.plugin_version}",
   "Description": "Instantly load a pearl when a player logs in",
   "Authors": [
-    "Tilley8"
+    "Tilley8",
+    "2kybe3"
   ],
   "Minecraft-Versions": [
     "1.21.4",
